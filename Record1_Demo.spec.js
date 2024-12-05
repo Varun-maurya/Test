@@ -7,7 +7,7 @@ function generateRandomEmail() {
   const randomDomain = domains[Math.floor(Math.random() * domains.length)];
   return `${randomName}@${randomDomain}`;
 }
-
+// add
 // Function to generate random names
 function generateRandomName() {
   const firstNames = [
